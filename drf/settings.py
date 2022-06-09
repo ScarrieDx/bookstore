@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [\
+INSTALLED_APPS = [
     'homepage',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,6 +44,7 @@ INSTALLED_APPS = [\
     'api',
     'django_rest_passwordreset',
     'books',
+    "graphene_django",
 
 ]
 
